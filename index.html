@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Life Calendar</title>
+</head>
+<body>
+
+<header>
+    <div class="logo">Life Cal</div>
+    <nav>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="signup.html">Sign Up</a></li>
+            <li><a href="login.html">Log In</a></li>
+        </ul>
+    </nav>
+</header>
+
+<div class="container">
+    <h1>Life Calendar</h1>
+
+    <label for="birthdate">Enter Your Birthdate:</label>
+    <input type="date" id="birthdate">
+
+    <button onclick="calculateLife()">Calculate Life</button>
+
+    <div id="result">
+        <p>Age: <span id="age"></span></p>
+        <p>Number of Days: <span id="days"></span></p>
+        <p>Number of Minutes: <span id="minutes"></span></p>
+        <p>Number of Seconds: <span id="seconds"></span></p>
+    </div>
+</div>
+
+<footer>
+    <div class="footer-content">
+        <div class="footer-section">
+            <h3>Explore</h3>
+            <p><a href="#">Home</a></p>
+            <p><a href="#">Sign Up</a></p>
+            <p><a href="#">Log In</a></p>
+        </div>
+        <div class="footer-section">
+            <h3>Connect</h3>
+            <p><a href="#">GitHub</a></p>
+            <p><a href="#">Twitter</a></p>
+            <p><a href="#">LinkedIn</a></p>
+        </div>
+        <div class="footer-section">
+            <h3>About</h3>
+            <p><a href="#">Developer</a></p>
+            <p><a href="#">Privacy Policy</a></p>
+            <p><a href="#">Terms of Service</a></p>
+        </div>
+        <div class="footer-section">
+            <h3>Contact</h3>
+            <p>Email: example@email.com</p>
+            <p>Phone: +123 456 789</p>
+        </div>
+    </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
